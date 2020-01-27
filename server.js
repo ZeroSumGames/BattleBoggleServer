@@ -34,11 +34,7 @@ io.on('connection', socket => {
 	})
 })
 
-/* 
-when points updated
-send points to other player
-*/
-
 io.on('SEND', socket => {
 	console.log(socket.id);
 })
+
