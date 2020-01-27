@@ -10,7 +10,7 @@ const allLetters = {
     A: { id: 0, value: "A", points: 1 },
     B: { id: 1, value: "B", points: 4 },
     C: { id: 2, value: "C", points: 4 },
-    D: { id: 3, value: "D", points: 2 },
+    D: { id: 3, value: "D", points: 3 },
     E: { id: 4, value: "E", points: 1 },
     F: { id: 5, value: "F", points: 4 },
     G: { id: 6, value: "G", points: 3 },
@@ -30,8 +30,8 @@ const allLetters = {
     U: { id: 20, value: "U", points: 2 },
     V: { id: 21, value: "V", points: 5 },
     W: { id: 22, value: "W", points: 4 },
-    X: { id: 23, value: "X", points: 1 },
-    Y: { id: 24, value: "Y", points: 1 },
+    X: { id: 23, value: "X", points: 8 },
+    Y: { id: 24, value: "Y", points: 3 },
     Z: { id: 25, value: "Z", points: 10 }
 };
 
