@@ -6,8 +6,8 @@ const app = express();
 
 const path = require('path');
 
-server.listen(3000, () => {
-	console.log("Serving on port 3000")
+server.listen(process.env.port || 3000, () => {
+	console.log(`Serving on port ${process.env.port || '3000'}`)
 })
 
 server.on('request', app);
