@@ -68,7 +68,7 @@ app.get("*", (req, res) => {
 const io = socketio(server);
 
 io.on('connection', socket => {
-	// console.log(board);
+	console.log(`${socket.id} has connected`);
 
 	socket.emit('makeBoard', board);
 
