@@ -53,7 +53,7 @@ let board = makeBoard(allLetters);
 
 
 server.listen(process.env.port || 3000, () => {
-	console.log(`Serving on port ${process.env.port || '3000'}`)
+	console.log(`Serving on port ${process.env.port 3000}`)
 })
 
 server.on('request', app);
