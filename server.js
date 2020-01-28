@@ -54,7 +54,7 @@ let board = makeBoard(allLetters);
 
 server.listen(process.env.port || 3000, () => {
 	if(process.env.port) console.log(`Serving on port ${process.env.port}`)
-	else console log("Couldn't find process.env.port...started serving on port 3000")
+	else console.log("Couldn't find process.env.port...started serving on port 3000")
 })
 
 server.on('request', app);
